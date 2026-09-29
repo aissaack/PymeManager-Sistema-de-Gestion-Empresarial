@@ -1,4 +1,4 @@
-# PymeManager-Sistema-de-Gesti-n-Empresarial
+# PymeManager-Sistema-de-Gestion-Empresarial
 
 # 🏢 PymeManager — Sistema de Gestión Empresarial
 
