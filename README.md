@@ -134,7 +134,7 @@ Se buscará implementar:
 
 ### Base de datos
 
-* MongoDB
+* PostgreSQL con Prisma como ORM
 
 ### Herramientas
 
@@ -161,14 +161,13 @@ La idea inicial es trabajar con una arquitectura separando frontend, backend y b
            │
            ▼
 ┌─────────────────────┐
-│   Node + Express    │
-│       Backend       │
+│     NestJS      │
 └──────────┬──────────┘
            │
            ▼
 ┌─────────────────────┐
-│      MongoDB        │
-│      Database       │
+│     Database
+      PostgreSQL       │
 └─────────────────────┘
 ```
 
@@ -261,13 +260,3 @@ Queremos construir algo que nos permita demostrar que podemos:
 > **Analizar un problema → diseñar una solución → modelar los datos → desarrollar el backend → desarrollar el frontend → integrar todo → probarlo → documentarlo y ponerlo en funcionamiento.**
 
 El resultado final debería ser un proyecto que podamos incluir en nuestro **portfolio y GitHub**, y que podamos explicar técnicamente durante una entrevista laboral.
-
----
-
-## 🙋 Propuesta para trabajar juntos
-
-Esta es una propuesta abierta. Sé que ambos tenemos estudio, trabajo y otras responsabilidades, por lo que entiendo perfectamente si no tenés disponibilidad para participar.
-
-Si te interesa, podemos revisar juntos el alcance, modificar funcionalidades, dividir las tareas y ver si el proyecto es viable para los dos antes de empezar.
-
-**La idea es que sea un proyecto compartido, no que uno termine cargando con todo el trabajo del otro.**
